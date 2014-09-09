@@ -39,6 +39,21 @@
 		?>
 	<?php 
 		echo "2426"; ?>
+	<h2>Nimekirja väljastamine muutujate ja stringide abil</h2>
+	<?php 
+		$student1 = "Eve";
+		$student2 = "Ingrid";
+		$student3 = "Marko";
+		$student4 = "Heiko";
+		$student5 = "Mihkel";
+		
+		echo "<li>" . $student1 . "</li>";
+		echo"<li>" . $student2 . "</li>";
+		echo"<li>" . $student3 . "</li>";
+		echo"<li>" . $student4 . "</li>";
+		echo"<li>" . $student5 . "</li>";
+	?>
+		
 	
 
 </body>
