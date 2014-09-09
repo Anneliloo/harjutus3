@@ -56,6 +56,9 @@
 		echo"<li>" . $student4 . "</li>";
 		echo"<li>" . $student5 . "</li>";
 		echo"<li>" . $fullName . "</li>";
+		
+		$test = "Testmime";
+		echo "$test kas interpolatsioon töötab";
 	?>
 		
 	
