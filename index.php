@@ -49,19 +49,51 @@
 		$firstname = "Anneli";
 		$lastname = "Loo";
 		$fullName = $firstname . " " . $lastname;
-		
 		echo "<li>" . $student1 . "</li>";
 		echo"<li>" . $student2 . "</li>";
 		echo"<li>" . $student3 . "</li>";
 		echo"<li>" . $student4 . "</li>";
 		echo"<li>" . $student5 . "</li>";
 		echo"<li>" . $fullName . "</li>";
-		
 		$test = "Testmime";
 		echo "$test kas interpolatsioon töötab";
+		echo "<br>";
+		$age = "20";
+		echo "Ma olen $age-e aastane";
 	?>
 		
-	
+	<h2>T2isarvud</h2>
+	<?php
+		$muutuja1 = "4";
+		$muutuja2 = "3";
+		echo $muutuja1 * $muutuja2;
+	?>
+<br>
+	<?php abs(-300) ?>
+<br>
+	<?php
+    // Viis ruudus:
+    echo pow(5, 2);
+
+    // Seitse kuubis:
+    echo pow(7, 3);
+
+    // Kolm astmel seitse:
+    echo pow(3, 7);
+	?> 
+<br>
+	<?php
+    // Ruutjuur 25-st:
+    echo sqrt(25);
+	?>
+<br>
+	<?php
+    // Suvaline number
+    echo rand();
+    echo "<br>";
+    // Suvaline number vahemikus 7 - 22:
+    echo rand(7, 22);
+	?>
 
 </body>
 
