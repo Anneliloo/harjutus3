@@ -46,12 +46,16 @@
 		$student3 = "Marko";
 		$student4 = "Heiko";
 		$student5 = "Mihkel";
+		$firstname = "Anneli";
+		$lastname = "Loo";
+		$fullName = $firstname . " " . $lastname;
 		
 		echo "<li>" . $student1 . "</li>";
 		echo"<li>" . $student2 . "</li>";
 		echo"<li>" . $student3 . "</li>";
 		echo"<li>" . $student4 . "</li>";
 		echo"<li>" . $student5 . "</li>";
+		echo"<li>" . $fullName . "</li>";
 	?>
 		
 	
